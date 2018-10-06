@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="179dp"
+        android:background="@drawable/mybutton"
+        android:fontFamily="@font/convergence"
+        android:text="Connect Now"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="113dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+
+        android:layout_marginTop="-123dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="119dp"
+        android:layout_height="98dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toStartOf="@+id/imageButton8"
+        android:background="@null"
+        app:srcCompat="@drawable/settings"/>
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="118dp"
+        android:layout_height="98dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        app:srcCompat="@drawable/clock"/>
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="111dp"
+        android:layout_height="104dp"
+        android:layout_alignBottom="@+id/imageButton5"
+        android:layout_toEndOf="@+id/imageButton8"
+        android:background="@null"
+        app:srcCompat="@drawable/info"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="74dp"
+        android:layout_height="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginStart="37dp"
+        android:fontFamily="@font/convergence"
+        android:text="Options"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/alarm"
+        android:layout_width="74dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginEnd="144dp"
+        android:fontFamily="@font/convergence"
+        android:text="Alarm"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="74dp"
+        android:layout_height="31dp"
+        android:layout_alignEnd="@+id/imageButton9"
+        android:layout_alignTop="@+id/textView"
+        android:fontFamily="@font/convergence"
+        android:text="Info"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="103dp"
+        android:layout_height="121dp"
+        android:layout_alignEnd="@+id/imageButton5"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        android:background="@null"
+        app:srcCompat="@drawable/profile"/>
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="130dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginTop="59dp"
+        android:fontFamily="@font/convergence"
+        android:text="John Doe"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="220dp"
+        android:layout_height="46dp"
+        android:layout_alignEnd="@+id/imageButton9"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/alef"
+        android:text="Lorem Ipsum Dolor"
+        android:textColor="#000000"
+        android:textSize="24sp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_below="@+id/imageView3"
+        android:background="@null"
+        app:srcCompat="@drawable/money"/>
+
+</RelativeLayout>
